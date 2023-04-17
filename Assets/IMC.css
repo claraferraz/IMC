@@ -78,7 +78,7 @@ footer p {
      margin: 0;
 }
 footer a {
-    color:aliceblue
+    color:aliceblue;
 }
 
 @media (max-width: 600px) {
