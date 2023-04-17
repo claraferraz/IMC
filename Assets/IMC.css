@@ -69,6 +69,19 @@ form button:hover {
 .resultado.success {
     display: block;
 }
+footer {
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+footer p {
+     margin: 0;
+}
+footer a {
+    color:aliceblue
+}
+
+
 
 @media (max-width: 600px) {
     body {
