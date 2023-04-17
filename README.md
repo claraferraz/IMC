@@ -10,7 +10,7 @@ Esse projeto é a minha solução de um desafio proposto pelo professor [Luiz Ot
   - [Links](#links)
 - [Meu processo](#meu-processo)
   - [O que aprendi](#o-que-aprendi)
-- [Autor](#autor)
+- [Autora](#autora)
 
 ## Overview
 
@@ -87,6 +87,6 @@ const validateInputs = (peso, altura) => {
 };
 ```
 
-## Autor
+## Autora
 
 - Website - [Clara Ferraz](https://github.com/claraferraz)
