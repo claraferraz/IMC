@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/IMC.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculo IMC</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
+      <div class="tabela">
+        <h4>IMC</h4>
+        <h4>Resultado</h4>
+        <p>Menos do que 18,5</p>
+        <p>Abaixo do peso</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Peso normal</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Sobrepeso</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Obesidade grau 1</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Obesidade grau 2</p>
+        <p>Mais do que 40</p>
+        <p>Obesidade grau 3</p>
+      </div>
+
+      <h1>Calcule seu IMC</h1>
+      <form action="/" method="get" id="form">
+        <label for="peso">Peso (kg):</label>
+        <input type="text" id="peso" value="" />
+        <label for="altura">Altura (m):</label>
+        <input type="text" id="altura" value="" />
+        <button type="submit">Calcular</button>
+      </form>
+      <div class="resultado"></div>
+    </section>
+    <script src="Assets/IMC.js"></script>
+  </body>
+</html>

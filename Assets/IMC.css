@@ -1,0 +1,81 @@
+:root {
+    --primary-color: rgb(64, 113, 138);
+    --primary-color-darker: rgb(46, 83, 101);
+    --secondary-color: aliceblue;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+
+}
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.tabela {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tabela p, .tabela h4 {
+    margin: 10px;
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input {
+    height: 40px;
+    font-size: 24px;
+    padding: 0 20px;
+}
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover {
+ background-color: var(--primary-color-darker);
+}
+.resultado {
+    display: hidden;
+    background-color: rgb(105, 208, 173);
+    text-align: center;
+    line-height: 40px;
+}
+.resultado.error {
+    display: block;
+    background-color: rgb(237, 134, 154);
+}
+.resultado.success {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+    .container {
+        max-width: 95%;
+
+    }
+}
