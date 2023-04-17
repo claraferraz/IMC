@@ -1,12 +1,12 @@
 # Calculo IMC (project in pt-BR)
 
-Esse projeto é a minha solução de um desafio proposto pelo professor Luiz Otávio Miranda [](https://beacons.ai/otaviomiranda) no curso na Udemy "Curso de JavaScript e TypeScript do básico ao avançado" [](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
+Esse projeto é a minha solução de um desafio proposto pelo professor [Luiz Otávio Miranda](https://beacons.ai/otaviomiranda) no curso na Udemy "" [Curso de JavaScript e TypeScript do básico ao avançado](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
 
 ## Table of contents
 
 - [Visão Geral](#overview)
   - [O Desafio](#o-desafio)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [Meu processo](#meu-processo)
   - [O que aprendi](#o-que-aprendi)
@@ -22,7 +22,7 @@ O desafio era:
 - Retornar o valor do IMC e o resultado de acordo com a tabela acima dos inputs
 - Caso um ou mais campos do input estiverem errados, retornar uma mensagem de erro
 
-### Screenshot
+### Screenshots
 
 ![](Assets/images/screenshot.png)
 ![](Assets/images/screenshot-error.png)
@@ -30,7 +30,7 @@ O desafio era:
 
 ### Links
 
-- Live Site URL: [](https://claraferraz.github.io/IMC)
+- Live Site URL: [live site](https://claraferraz.github.io/IMC)
 
 ### Meu processo
 
